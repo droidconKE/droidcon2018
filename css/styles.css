@@ -1,0 +1,82 @@
+
+body{
+    margin: 0;
+    background-color: #fff;
+/*    font-family: 'PT Sans Caption', sans-serif;*/
+/*    font-family: 'Roboto Slab', serif;*/
+    font-family: 'Roboto Mono', monospace;
+}
+#compile{
+    font-size: 9.5vw;
+   font-weight: 700;
+    line-height: 1.1;
+/*    letter-spacing: 0;*/
+    padding: 0 0.3em;
+}
+#nrb{
+    color: #333;
+}
+@media (max-width: 575.98px){
+    #compile{
+        font-size: 12vw;
+    }
+    #nrb{
+        font-size: 6vw;
+    }
+    #date{
+        font-size: 5.4vw;
+    }
+    #venue{
+        font-size: 5.4vw;
+    }
+    #cfp{
+        font-size: 4vw;
+        font-weight: bold;
+    }
+    #btn{
+       
+        font-size: 4vw;
+        
+    }
+}
+@media (max-width: 767.98px) { 
+    #cfp{
+        font-size: 3.5vw;
+        font-weight: bold;
+    }
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+.jumbotron{
+    position: absolute;
+	margin: 0;
+	padding: 0;
+    background-color: #fff;
+	color: #333;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+.fa{
+    color: #b1ef36;
+}
+.btn{
+    background-color:#b1ef36;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    color:#b1ef36;
+    background-color: #333;
+    font-weight: bold;
+}
