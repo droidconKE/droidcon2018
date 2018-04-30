@@ -1,7 +1,7 @@
 
 body{
     margin: 0;
-    background-color: #000;
+    background-color: #fff;
 /*    font-family: 'PT Sans Caption', sans-serif;*/
 /*    font-family: 'Roboto Slab', serif;*/
     font-family: 'Roboto Mono', monospace;
@@ -14,7 +14,7 @@ body{
     padding: 0 0.3em;
 }
 #nrb{
-    color: #333;
+    color: #fff;
 }
 @media (max-width: 575.98px){
     #compile{
@@ -49,18 +49,19 @@ body{
 .large-header {
 	position: relative;
 	width: 100%;
-	background: #fff;
+	background: #333;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
 }
 .jumbotron{
+
     position: absolute;
 	margin: 0;
 	padding: 0;
-    background-color: #fff;
-	color: #333;
+    background-color: #333;
+	color: #fff;
 	text-align: center;
 	top: 50%;
 	left: 50%;
@@ -77,6 +78,7 @@ body{
 }
 .btn:hover{
     color:#b1ef36;
-    background-color: #333;
+/*    background-color: #333;*/
+    background-color: #212121;
     font-weight: bold;
 }
