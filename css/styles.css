@@ -4,7 +4,7 @@ body{
     background-color: #fff;
 /*    font-family: 'PT Sans Caption', sans-serif;*/
 /*    font-family: 'Roboto Slab', serif;*/
-    font-family: 'Roboto Mono', monospace;
+   font-family: 'Lato', sans-serif;
 }
 #compile{
     font-size: 7vw;
@@ -30,7 +30,7 @@ body{
         font-size: 5.4vw;
     }
     #cfp{
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: bold;
     }
     #btn{
@@ -46,7 +46,7 @@ body{
 }
 @media (max-width: 767.98px) { 
     #cfp{
-        font-size: 3.5vw;
+        font-size: 4vw;
         font-weight: bold;
     }
 
@@ -100,7 +100,7 @@ body{
 /*    font-size: 4vw;*/
     line-height: 1vh;
     color: #fff;
-    font-family: 'Roboto Slab', sans-serif;
+   font-family: 'Lato', sans-serif;
     font-weight: 700;
     text-align: center;
 }
