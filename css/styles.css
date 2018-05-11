@@ -105,3 +105,13 @@ body{
     text-align: center;
 
 }
+.navbar-nav .nav-item .nav-link{
+    color: #000;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    font-weight: bold;
+    border-top: 3px solid #b1ef36;
+    border-bottom: 3px solid #b1ef36;
+
+}
