@@ -4,17 +4,17 @@ body{
     background-color: #fff;
 /*    font-family: 'PT Sans Caption', sans-serif;*/
 /*    font-family: 'Roboto Slab', serif;*/
-    font-family: 'Roboto Mono', monospace;
+   font-family: 'Lato', sans-serif;
 }
 #compile{
-    font-size: 9.5vw;
-   font-weight: 700;
+    font-size: 7vw;
+   font-weight: 500;
     line-height: 1.1;
 /*    letter-spacing: 0;*/
     padding: 0 0.3em;
 }
 #nrb{
-    color: #333;
+    color: #000;
 }
 @media (max-width: 575.98px){
     #compile{
@@ -30,7 +30,7 @@ body{
         font-size: 5.4vw;
     }
     #cfp{
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: bold;
     }
     #btn{
@@ -38,12 +38,18 @@ body{
         font-size: 4vw;
         
     }
+    #droidke{
+        font-size: 8vw;
+
+    }
+
 }
 @media (max-width: 767.98px) { 
     #cfp{
-        font-size: 3.5vw;
+        font-size: 4vw;
         font-weight: bold;
     }
+
 }
 
 .large-header {
@@ -56,11 +62,12 @@ body{
 	z-index: 1;
 }
 .jumbotron{
+
     position: absolute;
 	margin: 0;
 	padding: 0;
     background-color: #fff;
-	color: #333;
+	color: #000;
 	text-align: center;
 	top: 50%;
 	left: 50%;
@@ -77,6 +84,37 @@ body{
 }
 .btn:hover{
     color:#b1ef36;
-    background-color: #333;
+/*    background-color: #333;*/
+    background-color: #212121;
     font-weight: bold;
+}
+#about{
+    color: #fff;
+    background-color:#000;
+    text-align: center;
+}
+#droidke{
+    position: relative;
+    padding: 0 0 27px;
+    margin: 0 0 19px;
+/*    font-size: 4vw;*/
+    line-height: 1vh;
+    color: #fff;
+   font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+
+.navbar-nav .nav-item .nav-link{
+    color: #000;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    font-weight: bold;
+    border-top: 3px solid #b1ef36;
+    border-bottom: 3px solid #b1ef36;
+
 }
