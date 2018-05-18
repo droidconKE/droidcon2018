@@ -92,7 +92,14 @@ body{
     color: #fff;
     background-color:#000;
     text-align: center;
+    overflow: hidden;
+    position: relative;
+
 }
+#intro{
+    position: relative;
+}
+
 #droidke{
     position: relative;
     padding: 0 0 27px;
