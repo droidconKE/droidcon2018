@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-  particleground(document.getElementById('about'), {
-    dotColor: '#b2ff59',
+  particleground(document.getElementById('particles'), {
+    dotColor: '#b1ef36',
     lineColor: '#757575',
       directionX:'rigth',
       density:'8000',
