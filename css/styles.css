@@ -141,6 +141,50 @@ body{
 /*  margin: 0 0 20px 0;*/
   font-size: 24px;
 }
+#spkrheader{
+    text-decoration: underline;
+    text-decoration-color: #b1ef36;
+}
+#timer{
+
+background-color: #b1ef36;
+}
+#del-countdown{
+  width: 100vw;
+/* margin: 15% auto;*/
+}
+#clock span{
+  float: left;
+  text-align: center;
+  font-size: 3.5vw;
+  margin: 0 2%;
+  color: #000;
+  padding: 0 10px;
+  width: 10%;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+#clock:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+#units span{
+  float: left;
+  width: 14%;
+  text-align: center;
+  margin-top: 5px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+    font-weight: bold;
+}
+
+
+
 
 @media only screen and (max-width: 1000px) {
   #abt {
@@ -167,12 +211,21 @@ body{
     font-size: 16px;
       padding: 0 50px;
   }
-
+#units span{
+        width: 15%;
+/*
+   font-size: 1.8vw;
+    padding-left: 0;
+*/
+    }
 }
 
 @media only screen and (max-width: 320px) {
   #abt {
     font-size: 28px;
   }
+    #units span{
+        width: 10%;
+    }
 
 }
