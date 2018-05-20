@@ -119,8 +119,10 @@ body{
 #intro {
     color: #fff;
  position: absolute;
+/*
   left: 0;
     top: 140%;
+*/
   padding: 0 20px;
  width: 100%;
    text-align: center;
@@ -130,10 +132,13 @@ body{
   font-size: 85px;
   font-weight: 700;
   letter-spacing: 0.010em;
+/*    border-bottom: solid 4px #b1ef36;*/
+    text-decoration: underline;
+    text-decoration-color: #b1ef36;
 }
 
 #abtdroid {
-  margin: 0 0 20px 0;
+/*  margin: 0 0 20px 0;*/
   font-size: 24px;
 }
 
@@ -159,7 +164,8 @@ body{
   }
 
   #abtdroid {
-    font-size: 18px;
+    font-size: 16px;
+      padding: 0 50px;
   }
 
 }
