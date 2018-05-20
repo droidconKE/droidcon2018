@@ -46,6 +46,12 @@ body{
         font-size: 8vw;
 
     }
+    .navbar-nav .nav-item .nav-link{
+        text-align: center;
+    }
+    .navbar-nav .nav-item .nav-link:hover{
+        background-color: #b1ef36;
+    }
 
 }
 @media (max-width: 767.98px) { 
@@ -99,7 +105,7 @@ body{
 
 .navbar-nav .nav-item .nav-link:hover{
     font-weight: bold;
-    border-top: 3px solid #b1ef36;
+/*    border-top: 3px solid #b1ef36;*/
     border-bottom: 3px solid #b1ef36;
 
 }
