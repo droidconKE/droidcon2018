@@ -87,6 +87,7 @@ body{
 .fa{
     color: #b1ef36;
 }
+
 .btn{
     background-color:#b1ef36;
     color: white;
@@ -175,6 +176,7 @@ background-color: #b1ef36;
   width: 14%;
   text-align: center;
   margin-top: 5px;
+    margin-bottom: 5px;
   color: #000;
   text-transform: uppercase;
   font-size: 13px;
@@ -183,9 +185,12 @@ background-color: #b1ef36;
     font-weight: bold;
 }
 
+#footer{
+    background-color: #000;
+    color: #fff;
+}
 
-
-
+/*Media Queries*/
 @media only screen and (max-width: 1000px) {
   #abt {
     font-size: 70px;
