@@ -189,7 +189,9 @@ background-color: #b1ef36;
     background-color: #000;
     color: #fff;
 }
-
+#map{
+    border-left: 1px solid #b1ef36;
+}
 /*Media Queries*/
 @media only screen and (max-width: 1000px) {
   #abt {
