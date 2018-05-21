@@ -188,10 +188,9 @@ background-color: #b1ef36;
 #footer{
     background-color: #000;
     color: #fff;
+    margin: 0;
 }
-#map{
-    border-left: 1px solid #b1ef36;
-}
+
 /*Media Queries*/
 @media only screen and (max-width: 1000px) {
   #abt {
@@ -220,10 +219,8 @@ background-color: #b1ef36;
   }
 #units span{
         width: 15%;
-/*
-   font-size: 1.8vw;
-    padding-left: 0;
-*/
+   font-size: 2vw;
+/*    padding-left: 0;*/
     }
 }
 
