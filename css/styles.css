@@ -90,13 +90,13 @@ body{
 
 .btn{
     background-color:#b1ef36;
-    color: white;
+    color: #863B96;
     font-weight: bold;
 }
 .btn:hover{
-    color:#b1ef36;
+    color:#6ADEA3;
 /*    background-color: #333;*/
-    background-color: #212121;
+    background-color: #863B96;
     font-weight: bold;
 }
 
