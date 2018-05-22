@@ -89,14 +89,16 @@ body{
 }
 
 .btn{
-    background-color:#b1ef36;
-    color: white;
+    background-color:#863B96;
+    color:#6ADEA3;
+
     font-weight: bold;
 }
 .btn:hover{
-    color:#b1ef36;
+    background-color: #ffd54f;
+    color:#6ADEA3;
 /*    background-color: #333;*/
-    background-color: #212121;
+    background-color: ;
     font-weight: bold;
 }
 
