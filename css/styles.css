@@ -5,7 +5,7 @@
 }
 body{
     margin: 0;
-    background-color: #fff;
+    background-color: #f5f5f5;
 /*    font-family: 'PT Sans Caption', sans-serif;*/
 /*    font-family: 'Roboto Slab', serif;*/
    font-family: 'Lato', sans-serif;
@@ -65,7 +65,7 @@ body{
 .large-header {
 	position: relative;
 	width: 100%;
-	background: #fff;
+	background: #f5f5f5;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
@@ -76,7 +76,7 @@ body{
     position: absolute;
 	margin: 0;
 	padding: 0;
-    background-color: #fff;
+/*    background-color: #fff;*/
 	color: #000;
 	text-align: center;
 	top: 50%;
@@ -85,7 +85,9 @@ body{
 	transform: translate3d(-50%,-50%,0);
 }
 .fa{
-    color: #b1ef36;
+
+    color: #ffd54f;*/
+
 }
 
 .btn{
@@ -96,7 +98,7 @@ body{
 }
 .btn:hover{
     background-color: #ffd54f;
-    color:#6ADEA3;
+    color:#863B96;
 /*    background-color: #333;*/
     background-color: ;
     font-weight: bold;
@@ -108,8 +110,7 @@ body{
 
 .navbar-nav .nav-item .nav-link:hover{
     font-weight: bold;
-/*    border-top: 3px solid #b1ef36;*/
-    border-bottom: 3px solid #b1ef36;
+    border-bottom: 3px solid #6ADEA3;
 
 }
 #particles {
@@ -137,7 +138,7 @@ body{
   letter-spacing: 0.010em;
 /*    border-bottom: solid 4px #b1ef36;*/
     text-decoration: underline;
-    text-decoration-color: #b1ef36;
+    text-decoration-color: #ffd54f;
 }
 
 #abtdroid {
@@ -150,7 +151,7 @@ body{
 }
 #timer{
 
-background-color: #b1ef36;
+background-color: #ffd54f;
 }
 #del-countdown{
   width: 100vw;
