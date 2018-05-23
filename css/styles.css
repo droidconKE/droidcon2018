@@ -5,7 +5,7 @@
 }
 body{
     margin: 0;
-    background-color: #f5f5f5;
+    background-color: #fff;
 /*    font-family: 'PT Sans Caption', sans-serif;*/
 /*    font-family: 'Roboto Slab', serif;*/
    font-family: 'Lato', sans-serif;
@@ -50,7 +50,7 @@ body{
         text-align: center;
     }
     .navbar-nav .nav-item .nav-link:hover{
-        background-color: #b1ef36;
+        background-color: #863B96;
     }
 
 }
@@ -62,11 +62,12 @@ body{
 
 }
 
+
 .large-header {
 	position: relative;
 	width: 100%;
-	background: #f5f5f5;
-	overflow: hidden;
+/*    background: #f5f5f5;*/
+    overflow: hidden;
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
@@ -86,7 +87,7 @@ body{
 }
 .fa{
 
-    color: #ffd54f;*/
+    color: #863B96;
 
 }
 
@@ -97,7 +98,7 @@ body{
     font-weight: bold;
 }
 .btn:hover{
-    background-color: #ffd54f;
+    background-color: #6ADEA3;
     color:#863B96;
 /*    background-color: #333;*/
     background-color: ;
@@ -110,7 +111,7 @@ body{
 
 .navbar-nav .nav-item .nav-link:hover{
     font-weight: bold;
-    border-bottom: 3px solid #6ADEA3;
+    border-bottom: 3px solid #863B96;
 
 }
 #particles {
@@ -138,20 +139,17 @@ body{
   letter-spacing: 0.010em;
 /*    border-bottom: solid 4px #b1ef36;*/
     text-decoration: underline;
-    text-decoration-color: #ffd54f;
+    text-decoration-color: #6ADEA3;
 }
 
 #abtdroid {
 /*  margin: 0 0 20px 0;*/
   font-size: 24px;
 }
-#spkrheader{
-    text-decoration: underline;
-    text-decoration-color: #b1ef36;
-}
+
 #timer{
 
-background-color: #ffd54f;
+background-color: #6ADEA3;
 }
 #del-countdown{
   width: 100vw;
