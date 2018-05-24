@@ -6,9 +6,7 @@
 body{
     margin: 0;
     background-color: #fff;
-/*    font-family: 'PT Sans Caption', sans-serif;*/
-/*    font-family: 'Roboto Slab', serif;*/
-   font-family: 'Lato', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
 #compile{
     font-size: 7vw;
@@ -66,7 +64,7 @@ body{
 .large-header {
 	position: relative;
 	width: 100%;
-/*    background: #f5f5f5;*/
+    background: #ffd54f;
     overflow: hidden;
 	background-size: cover;
 	background-position: center center;
@@ -77,7 +75,6 @@ body{
     position: absolute;
 	margin: 0;
 	padding: 0;
-/*    background-color: #fff;*/
 	color: #000;
 	text-align: center;
 	top: 50%;
@@ -100,7 +97,6 @@ body{
 .btn:hover{
     background-color: #6ADEA3;
     color:#863B96;
-/*    background-color: #333;*/
     background-color: ;
     font-weight: bold;
 }
@@ -123,37 +119,32 @@ body{
 
 #intro {
     color: #fff;
- position: absolute;
-/*
-  left: 0;
-    top: 140%;
-*/
+    position: absolute;
   padding: 0 20px;
  width: 100%;
    text-align: center;
 }
 #abt {
-/*  text-transform: uppercase;*/
-  font-size: 85px;
-  font-weight: 700;
+  font-size: 70;
+  font-weight: 500;
   letter-spacing: 0.010em;
-/*    border-bottom: solid 4px #b1ef36;*/
-    text-decoration: underline;
-    text-decoration-color: #6ADEA3;
+  text-decoration-color: #6ADEA3;
 }
 
 #abtdroid {
-/*  margin: 0 0 20px 0;*/
-  font-size: 24px;
+  margin: 12px 0 40px 0;
+  font-size: 19px;
 }
 
 #timer{
+    background-color: #6ADEA3;
 
-background-color: #6ADEA3;
+    margin: 20px 12px 40px 12px;
 }
 #del-countdown{
   width: 100vw;
-/* margin: 15% auto;*/
+    text-align: center;
+ margin: 20px auto;
 }
 #clock span{
   float: left;
