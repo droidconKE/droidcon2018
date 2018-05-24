@@ -8,6 +8,14 @@ body{
     background-color: #fff;
    font-family: 'Roboto', sans-serif;
 }
+/* sections */
+/*HomePage*/
+.countdown{
+    background-color:#863B96;
+    color:#6ADEA3
+
+}
+
 #compile{
     font-size: 7vw;
    font-weight: 500;
@@ -133,12 +141,12 @@ body{
 }
 
 #timer{
-    margin: 20px 12px 40px 12px;
+    padding: 12px 0 20px 0;
     background-color: #6ADEA3;
 }
 #del-countdown{
     background-color: #6ADEA3;
-    width: 50%;
+   /* width: 50%;*/
     text-align: center;
     margin: 20px auto;
 }
