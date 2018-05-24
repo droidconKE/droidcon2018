@@ -109,12 +109,6 @@ body{
     font-weight: bold;
 }
 
-/*
-.navbar-nav .nav-item .nav-link{
-    color: #000;
-}
-*/
-
 .navbar-nav .nav-item .nav-link:hover{
     font-weight: bold;
     border-bottom: 3px solid #863B96;
@@ -187,6 +181,7 @@ body{
     font-weight: bold;
 }
 
+
 #footer{
     background-color: #000;
     color: #fff;
@@ -218,7 +213,7 @@ body{
     font-size: 16px;
       padding: 0 50px;
   }
-    #units span{
+#units span{
     width: 15%;
     font-size: 2vw;
     }
