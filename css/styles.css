@@ -101,12 +101,6 @@ body{
     font-weight: bold;
 }
 
-/*
-.navbar-nav .nav-item .nav-link{
-    color: #000;
-}
-*/
-
 .navbar-nav .nav-item .nav-link:hover{
     font-weight: bold;
     border-bottom: 3px solid #863B96;
@@ -139,14 +133,14 @@ body{
 }
 
 #timer{
+/*    margin: 20px 12px 40px 12px;*/
     background-color: #6ADEA3;
-
-    margin: 20px 12px 40px 12px;
 }
 #del-countdown{
-  width: 100vw;
+    background-color: #6ADEA3;
+    width: 50%;
     text-align: center;
- margin: 20px auto;
+    margin: 20px auto;
 }
 #clock span{
   float: left;
@@ -178,6 +172,7 @@ body{
   text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
     font-weight: bold;
 }
+
 
 #footer{
     background-color: #000;
@@ -212,9 +207,9 @@ body{
       padding: 0 50px;
   }
 #units span{
-        width: 15%;
+        width: 25%;
    font-size: 2vw;
-/*    padding-left: 0;*/
+
     }
 }
 
