@@ -109,9 +109,11 @@ body{
     font-weight: bold;
 }
 
+/*
 .navbar-nav .nav-item .nav-link{
     color: #000;
 }
+*/
 
 .navbar-nav .nav-item .nav-link:hover{
     font-weight: bold;
