@@ -50,7 +50,7 @@ body{
         text-align: center;
     }
     .navbar-nav .nav-item .nav-link:hover{
-        background-color: #b1ef36;
+        background-color: #863B96;
     }
 
 }
@@ -62,11 +62,12 @@ body{
 
 }
 
+
 .large-header {
 	position: relative;
 	width: 100%;
-	background: #fff;
-	overflow: hidden;
+/*    background: #f5f5f5;*/
+    overflow: hidden;
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
@@ -76,7 +77,7 @@ body{
     position: absolute;
 	margin: 0;
 	padding: 0;
-    background-color: #fff;
+/*    background-color: #fff;*/
 	color: #000;
 	text-align: center;
 	top: 50%;
@@ -85,18 +86,22 @@ body{
 	transform: translate3d(-50%,-50%,0);
 }
 .fa{
-    color: #b1ef36;
+
+    color: #863B96;
+
 }
 
 .btn{
-    background-color:#b1ef36;
-    color: white;
+    background-color:#863B96;
+    color:#6ADEA3;
+
     font-weight: bold;
 }
 .btn:hover{
-    color:#b1ef36;
+    background-color: #6ADEA3;
+    color:#863B96;
 /*    background-color: #333;*/
-    background-color: #212121;
+    background-color: ;
     font-weight: bold;
 }
 
@@ -106,8 +111,7 @@ body{
 
 .navbar-nav .nav-item .nav-link:hover{
     font-weight: bold;
-/*    border-top: 3px solid #b1ef36;*/
-    border-bottom: 3px solid #b1ef36;
+    border-bottom: 3px solid #863B96;
 
 }
 #particles {
@@ -135,20 +139,17 @@ body{
   letter-spacing: 0.010em;
 /*    border-bottom: solid 4px #b1ef36;*/
     text-decoration: underline;
-    text-decoration-color: #b1ef36;
+    text-decoration-color: #6ADEA3;
 }
 
 #abtdroid {
 /*  margin: 0 0 20px 0;*/
   font-size: 24px;
 }
-#spkrheader{
-    text-decoration: underline;
-    text-decoration-color: #b1ef36;
-}
+
 #timer{
 
-background-color: #b1ef36;
+background-color: #6ADEA3;
 }
 #del-countdown{
   width: 100vw;
