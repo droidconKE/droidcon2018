@@ -102,6 +102,12 @@ body{
 
     font-weight: bold;
 }
+#btnsponsor{
+    background-color:#863B96;
+    font-weight: bold;
+    color: #ffd54f;
+
+}
 .btn:hover{
     background-color: #6ADEA3;
     color:#863B96;
