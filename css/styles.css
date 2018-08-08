@@ -1,67 +1,73 @@
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
     background-color: #fff;
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 /* sections */
-/*HomePage*/
-.countdown{
-    background-color:#863B96;
-    color:#6ADEA3
 
+/*HomePage*/
+
+.countdown {
+    background-color: #863B96;
+    color: #6ADEA3
 }
 
-#compile{
+#compile {
     font-size: 7vw;
-   font-weight: 500;
+    font-weight: 500;
     line-height: 1.1;
-/*    letter-spacing: 0;*/
+    /*    letter-spacing: 0;*/
     padding: 0 0.3em;
 }
-#nrb{
+
+#nrb {
     color: #000;
 }
-@media (max-width: 575.98px){
-    #compile{
+
+@media (max-width: 575.98px) {
+    #compile {
         font-size: 12vw;
     }
-    #nrb{
+    #nrb {
         font-size: 6vw;
     }
-    #date{
+    #date {
         font-size: 5.4vw;
     }
-    #venue{
+    #venue {
         font-size: 5.4vw;
     }
-    #cfp{
+    #cfp {
         font-size: 5vw;
         font-weight: bold;
     }
-    #btn{
-       
+    #btn {
+
         font-size: 4vw;
-        
+
     }
-    #droidke{
+    #droidke {
         font-size: 8vw;
 
     }
-    .navbar-nav .nav-item .nav-link{
+    .navbar-nav .nav-item .nav-link {
         text-align: center;
     }
-    .navbar-nav .nav-item .nav-link:hover{
+    .navbar-nav .nav-item .nav-link:hover {
         background-color: #863B96;
     }
 
 }
-@media (max-width: 767.98px) { 
-    #cfp{
+
+@media (max-width: 767.98px) {
+    #cfp {
         font-size: 4vw;
         font-weight: bold;
     }
@@ -70,56 +76,64 @@ body{
 
 
 .large-header {
-	position: relative;
-	width: 100%;
-    background: #ffd54f;
-    overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
+    position: relative;
+    width: 100%;
+/*    background: #ffd54f;*/
+    background-image: url(/img/droidconbg.svg), none;
+     overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
 }
-.jumbotron{
 
+.jumbotron {
+/*    background: #ffd54f;*/
+/*     background-image: url(/img/copy1.svg), none;*/
+    background: transparent;
     position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #000;
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
-.fa{
+
+.fa {
 
     color: #863B96;
 
 }
 
-.btn{
-    background-color:#863B96;
-    color:#6ADEA3;
-
-    font-weight: bold;
+.btn {
+    background-color: #863B96;
+    /*    color:#6ADEA3;*/
+    color: #fff;
+    font-weight: bolder;
 }
-#btnsponsor{
-    background-color:#863B96;
+
+#btnsponsor {
+    background-color: #863B96;
     font-weight: bold;
     color: #ffd54f;
 
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #6ADEA3;
-    color:#863B96;
+    color: #863B96;
     background-color: ;
     font-weight: bold;
 }
 
-.navbar-nav .nav-item .nav-link:hover{
+.navbar-nav .nav-item .nav-link:hover {
     font-weight: bold;
     border-bottom: 3px solid #863B96;
 
 }
+
 #particles {
     background: #000;
     width: 100%;
@@ -134,46 +148,49 @@ body{
     width: 100%;
     text-align: center;
 }
+
 #abt {
-  font-size: 70;
-  font-weight: 500;
-  letter-spacing: 0.010em;
-  text-decoration-color: #6ADEA3;
+    font-size: 70;
+    font-weight: 500;
+    letter-spacing: 0.010em;
+    text-decoration-color: #6ADEA3;
 }
 
 #abtdroid {
-  margin: 12px 0 40px 0;
-  font-size: 19px;
+    margin: 12px 0 40px 0;
+    font-size: 19px;
 }
 
-#del-countdown{
+#del-countdown {
     background-color: #6ADEA3;
     text-align: center;
     margin: 20px auto;
 }
-#timer{
+
+#timer {
     padding: 12px 0 20px 0;
     background-color: #6ADEA3;
 }
 
-#clock span{
-  float: left;
-  text-align: center;
-  font-size: 3.5vw;
-  margin: 0 2%;
-  color: #000;
-  padding: 0 10px;
-  width: 10%;
-  border-radius: 50%;
-  box-sizing: border-box;
+#clock span {
+    float: left;
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 0 2%;
+    color: #000;
+    padding: 0 10px;
+    width: 10%;
+    border-radius: 50%;
+    box-sizing: border-box;
 }
 
-#clock:after{
-  content: "";
-  display: block;
-  clear: both;
+#clock:after {
+    content: "";
+    display: block;
+    clear: both;
 }
-#units span{
+
+#units span {
     float: left;
     width: 14%;
     text-align: center;
@@ -183,57 +200,57 @@ body{
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+    text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
     font-weight: bold;
 }
 
 
-#footer{
+#footer {
     background-color: #000;
     color: #fff;
     margin: 0;
 }
 
 /*Media Queries*/
+
 @media only screen and (max-width: 1000px) {
-  #abt {
-    font-size: 70px;
-  }
+    #abt {
+        font-size: 70px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-  #abt {
-    font-size: 48px;
-  }
+    #abt {
+        font-size: 48px;
+    }
 
 }
 
 @media only screen and (max-width: 568px) {
     #intro {
-    padding: 0 10px;
-  }
+        padding: 0 10px;
+    }
     #abt {
-    font-size: 30px;
-  }
+        font-size: 30px;
+    }
     #abtdroid {
-    font-size: 16px;
-      padding: 0 50px;
-  }
-#units span{
-    width: 15%;
-    font-size: 2vw;
+        font-size: 16px;
+        padding: 0 50px;
+    }
+    #units span {
+        width: 15%;
+        font-size: 2vw;
     }
 }
 
 @media only screen and (max-width: 320px) {
     #abt {
-    font-size: 28px;
-  }
-    #units span{
+        font-size: 28px;
+    }
+    #units span {
         width: 10%;
     }
 
 }
-#map{
 
-}
+#map {}
