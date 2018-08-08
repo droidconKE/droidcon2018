@@ -85,7 +85,8 @@
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.scale*10, 0, 2 * Math.PI, false);
 //            ctx.fillStyle = 'rgba(255,255,255,'+ _this.alpha+')';
-            ctx.fillStyle="#863B96";
+//            ctx.fillStyle="#863B96";
+            ctx.fillStyle='rgba(134, 59, 150, 0.7)';
             ctx.fill();
         };
     }
