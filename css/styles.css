@@ -78,7 +78,8 @@ body {
 .large-header {
     position: relative;
     width: 100%;
-    background: #ffd54f;
+/*    background: #ffd54f;*/
+    background-image: url(/img/droidconbg.svg), none;
      overflow: hidden;
     background-size: cover;
     background-position: center center;
@@ -86,7 +87,9 @@ body {
 }
 
 .jumbotron {
-    background: #ffd54f;
+/*    background: #ffd54f;*/
+/*     background-image: url(/img/copy1.svg), none;*/
+    background: transparent;
     position: absolute;
     margin: 0;
     padding: 0;
