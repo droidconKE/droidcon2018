@@ -145,3 +145,29 @@ window.onload = function(){
   var deadline = new Date("October 4, 2018 11:59:00");
   startTimer("clock", deadline);
 };
+
+//sixth schedule
+function five() {
+    var x = document.getElementById("fifthidden");
+    var y = document.getElementById("sixthidden");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+         y.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+};
+five();
+
+function sixth() {
+    var x = document.getElementById("sixthidden");
+    var y = document.getElementById("fifthidden");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+    }
+    else {
+        x.style.display = "none";
+    }
+};
+sixth();
