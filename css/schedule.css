@@ -1,0 +1,31 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:#fafafa;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    background
+}
+
+
+#btnschedule{
+    font-size: 1rem;
+    background-color: #863B96;
+    color: #fff;
+    margin-right: 1em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
