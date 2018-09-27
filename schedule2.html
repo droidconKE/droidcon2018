@@ -54,7 +54,7 @@
  <nav class="navbar fixed-top navbar-expand-lg navbar-light ml-auto" style="background-color: #000" >
  <!-- Just an image -->
 
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.html">
     <img src="/img/main-logos-03.png" width="30" height="30" alt="">
   </a>
 <button class="navbar-toggler" style="color:#ffd54f;" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +71,7 @@
         <a class="nav-link mr-4" style="color:#ffd54f" href="#abt">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link mr-4" style="color:#ffd54f" href="#">SPEAKERS</a>
+        <a class="nav-link mr-4" style="color:#ffd54f" href="speakers.html">SPEAKERS</a>
       </li>
       <li class="nav-item">
         <a class="nav-link mr-4" style="color:#ffd54f" href="schedule1.html">SCHEDULE</a>
@@ -83,13 +83,17 @@
   </div>
 </nav>
     </section>
-<div class="container-fluid pt-5 mt-5" >
+<div class="container pt-5 mt-5 mb-4" >
   <div class="row">
-       <div class="col pt-2 pl-3">
-           <h1 style="font-weight: bold; color: #863B96">Schedule</h1>
+       <div class="col pt-2 pl-3 mb-5">
+           <h1 id="scheduleHeader">Schedule</h1>
        </div>
    </div>
-     <div class="row text-center mb-5">
+
+
+    <!--DAY TWO-->
+ <table id="sixthidden">
+   <div class="row text-left">
         <div class="col">
             <a href="schedule1.html" class="btn btn-lg active" role="button" aria-pressed="true" id="btnschedule"style="color:#863B96;background-color: #fafafa "  > 5 Oct</a>
             <a href="schedule2.html" class="btn btn-lg active" role="button" aria-pressed="true" id="btnschedule"> 6 Oct</a>
@@ -98,97 +102,82 @@
         </div>
 
     </div>
-
-    <!--DAY TWO-->
- <table style="width:80%" id="sixthidden">
-   <h3 class="mt-4" style="font-weight: bold">Saturday,October 6</h3>
   <tr style="background-color: #863B96; color: #fff">
-    <th >Time</th>
-    <th class="text-center">Beginner Track</th>
-    <th class="text-center">Intermediate Track</th>
-    <th class="text-center">Advanced Track</th>
+    <th id="scheduleTime" >Time</th>
+    <th class="text-center">Room 1</th>
+    <th class="text-center">Room 2</th>
+    <th class="text-center">Room 3</th>
   </tr>
   <tr>
     <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 08:00-09:00</i></td>
-    <td colspan="3"> <h4 class="text-center" style="font-weight: bold"> Registration</h4></td>
+    <td colspan="3"> <h4 class="text-center" style="font-weight: bold">Arrival and Registration</h4></td>
 
   </tr>
-   <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 09:00-09:15</i></td>
-    <td colspan="3"> <h4 class="text-center"> Welcome Words</h4></td>
 
-  </tr>
    <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 09:15-10:00</i></td>
-    <td colspan="3"> <h4 class="text-center"> KeyNote 2</h4></td>
+    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 09:00-10:00</i></td>
+    <td colspan="3"> <h4 class="text-center"> KeyNote </h4></td>
 
   </tr>
   <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 10:00-10:45</i></td>
-    <td > <h4 class="text-center" style="font-weight: bold"> CodeLab 6</h4></td>
-     <td > <h4 class="text-center" style="font-weight: bold"> CodeLab 6</h4></td>
-      <td > <h4 class="text-center" style="font-weight: bold"> CodeLab 6</h4></td>
+    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 10:00-10:50</i></td>
+    <td > <h4 class="text-center" style="font-weight: bold"> Constraint Layout 2.0</h4>
+    <h5 id="speakersName">Thomas Kioko</h5></td>
+     <td > <h4 class="text-center" style="font-weight: bold"> Software craftmanship-Becoming a better android developer</h4>
+     <h5 id="speakersName">Seth Kigen</h5></td>
+      <td > <h4 class="text-center" style="font-weight: bold"> To Inject or not inject - Dependency injection in a Kotlin world</h4><h5 id="speakersName">Danny Preussler</h5></td>
 
   </tr>
-   <tr style="background-color: #eeeeee">
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 10:45-11:15</i></td>
-     <td colspan="3"><h4 class="text-center">Tea Break</h4></td>
-      </tr>
+
       <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 11:15-12:00</i></td>
-        <td><h4 class="text-center" style="font-weight: bold"> CodeLab 7</h4></td>
-         <td><h4 class="text-center" style="font-weight: bold"> CodeLab 7</h4></td>
-          <td><h4 class="text-center" style="font-weight: bold"> CodeLab 7</h4></td>
+        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 11:00-11:50</i></td>
+        <td></td>
+         <td><h4 class="text-center" style="font-weight: bold"> Jetpack: An Overview</h4>
+         <h5 id="speakersName">Eston Karumbi</h5></td>
+          <td><h4 class="text-center" style="font-weight: bold"> Retrofiti:A Paragmatic Approach to using Retrofit in Android</h4> <h5 id="speakersName">Roger Taracha</h5></td>
       </tr>
+
        <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 12:00-01:00</i></td>
-     <td colspan="3"><h4 class="text-center">Sponsor Slot</h4></td>
+        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 12:00-12:50</i></td>
+        <td><h4 class="text-center" style="font-weight: bold"> GraphQL on Android</h4>
+         <h5 id="speakersName">Emmanuel Mutua</h5></td>
+         <td></td>
+          <td><h4 class="text-center" style="font-weight: bold">Continous Intergration on Android</h4><h5 id="speakersName">Stephen Ebichondo</h5></td>
       </tr>
+
        <tr style="background-color: #eee">
     <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 01:00-02:00</i></td>
      <td colspan="3"><h4 class="text-center">Lunch Break</h4></td>
       </tr>
        <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 02:00-03:00</i></td>
-        <td colspan="4"><h4 class="text-center" style="font-weight: bold"> Office Hours</h4>
-    <h5 class="text-center">Hackathon <br />
-    Pitching </h5>
-
-     </td>
+    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 02:00-03:00</i></td>
+     <td colspan="3"><h4 class="text-center">BreakOut-Interaction</h4></td>
       </tr>
+
        <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 03:00-03:45</i></td>
-        <td><h4 class="text-center" style="font-weight: bold"> CodeLab 8</h4></td>
-         <td><h4 class="text-center" style="font-weight: bold"> CodeLab 8</h4></td>
-          <td><h4 class="text-center" style="font-weight: bold"> CodeLab 8</h4></td>
+        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 03:00-03:50</i></td>
+        <td><h4 class="text-center" style="font-weight: bold"> Async Operations with Kotlin Coroutines</h4><h5 id="speakersName">Mayowa Adegeye</h5></td>
+         <td><h4 class="text-center" style="font-weight: bold"> Android Jetpack</h4><h5 id="speakersName">Valentine Rutto</h5></td>
+          <td><h4 class="text-center" style="font-weight: bold"> Android Things</h4><h5 id="speakersName">Collins Wangereka</h5></td>
       </tr>
         <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold">03:45-4:30</i></td>
-        <td><h4 class="text-center" style="font-weight: bold"> CodeLab 9</h4></td>
-         <td><h4 class="text-center" style="font-weight: bold"> CodeLab 9</h4></td>
-          <td><h4 class="text-center" style="font-weight: bold"> CodeLab 9</h4></td>
+        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold">04:00-4:50</i></td>
+        <td></td>
+         <td><h4 class="text-center" style="font-weight: bold"> Creating Machine Learning On Android</h4><h5 id="speakersName">Felicity Mecha</h5></td>
+          <td><h4 class="text-center" style="font-weight: bold"> React Native for Android</h4><h5 id="speakersName">Kitavi Joseph</h5></td>
       </tr>
       <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold">4:30-5:20</i></td>
-        <td colspan="3"><h4 class="text-center" style="font-weight: bold"> SO YOU CAN DEVELOP ANDROID APPS THEN WHAT?
+        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold">5:00-6:00</i></td>
+        <td><h4 class="text-center" style="font-weight: bold"> SO YOU CAN DEVELOP ANDROID APPS THEN WHAT?
 </h4>
-        <h5 class="text-center">Pricing Your Work as an Android Developer<br />Freelancing
-</h5>
+
         </td>
-
+        <td></td>
+<td></td>
       </tr>
-      <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold">4:30-5:20</i></td>
-        <td colspan="3"><h4 class="text-center" style="font-weight: bold"> ANNOUNCEMENT OF WINNERS OF THE VARIOUS HACKATHONS
 
-</h4>
-        <h5 class="text-center">Speeches and introducing those that put effort for droidCon<br />RECAP
-</h5>
-        </td>
-
-      </tr>
        <tr style="background-color: #eee">
-        <td > <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 5:45</i></td>
+        <td > <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 6:35</i></td>
         <td  class="text-center" colspan="3">droidconKE bash</td>
       </tr>
 

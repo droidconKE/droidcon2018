@@ -54,7 +54,7 @@
  <nav class="navbar fixed-top navbar-expand-lg navbar-light ml-auto" style="background-color: #000" >
  <!-- Just an image -->
 
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.html">
     <img src="/img/main-logos-03.png" width="30" height="30" alt="">
   </a>
 <button class="navbar-toggler" style="color:#ffd54f;" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +71,7 @@
         <a class="nav-link mr-4" style="color:#ffd54f" href="#abt">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link mr-4" style="color:#ffd54f" href="#">SPEAKERS</a>
+        <a class="nav-link mr-4" style="color:#ffd54f" href="speakers.html">SPEAKERS</a>
       </li>
       <li class="nav-item">
         <a class="nav-link mr-4" style="color:#ffd54f" href="schedule1.html">SCHEDULE</a>
@@ -83,13 +83,17 @@
   </div>
 </nav>
     </section>
-<div class="container-fluid pt-5 mt-5" >
+<div class="container pt-5 mt-5 mb-4" >
   <div class="row">
-       <div class="col pt-2 pl-3">
-           <h1 style="font-weight: bold; color: #863B96">Schedule</h1>
+       <div class="col pt-2 pl-3 mb-5">
+           <h1 id="scheduleHeader">Schedule</h1>
        </div>
    </div>
-     <div class="row text-center mb-5">
+
+<!--    Day One-->
+  <table class="table-responsive" id="fifthidden">
+<!--   <h3 style="font-weight: bold">Friday,October 5</h3>-->
+ <div class="row text-left">
         <div class="col">
             <a href="schedule1.html" class="btn btn-lg active" role="button" aria-pressed="true" id="btnschedule"> 5 Oct</a>
             <a href="schedule2.html" class="btn btn-lg active" role="button" aria-pressed="true" id="btnschedule"style="color:#863B96;background-color: #fafafa "> 6 Oct</a>
@@ -98,93 +102,70 @@
         </div>
 
     </div>
-<!--    Day One-->
-  <table style="width:80%" id="fifthidden">
-   <h3 style="font-weight: bold">Friday,October 5</h3>
   <tr style="background-color: #863B96; color: #fff">
-    <th >Time</th>
-    <th class="text-center">Beginner Track</th>
-    <th class="text-center">Intermediate Track</th>
-    <th class="text-center">Advanced Track</th>
+    <th id="scheduleTime">Time</th>
+    <th class="text-center">Room 1</th>
+    <th class="text-center">Room 2</th>
+    <th class="text-center">Room 3</th>
   </tr>
   <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 08:00-09:00</i></td>
-    <td colspan="3"> <h4 class="text-center" style="font-weight: bold"> Registration</h4></td>
+    <td> <i class="fa fa-clock-o" aria-hidden="true" id="clock"> 08:00-09:00</i></td>
+    <td colspan="3"> <h4 class="text-center" style="font-weight: bold">Arrival Registration</h4></td>
 
   </tr>
-   <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 09:00-09:15</i></td>
-    <td colspan="3"> <h4 class="text-center"> Welcome Words</h4></td>
 
-  </tr>
    <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 09:15-10:00</i></td>
+    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 09:00-9:45</i></td>
     <td colspan="3"> <h4 class="text-center"> KeyNote</h4></td>
 
   </tr>
   <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 10:00-10:45</i></td>
-    <td > <h4 class="text-center" style="font-weight: bold"> CodeLab 1</h4></td>
-     <td > <h4 class="text-center" style="font-weight: bold"> CodeLab 1</h4></td>
-      <td > <h4 class="text-center" style="font-weight: bold"> CodeLab 1</h4></td>
+    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 10:00-10:50</i></td>
+    <td > <h4 class="text-center" style="font-weight: bold"> Android Architecture</h4>
+    <h5 id="speakersName">Allan Mumoh</h5></td>
+     <td > <h4 class="text-center" style="font-weight: bold"> Android City:On the walls of Kotlin Street</h4>
+     <h5 id="speakersName">Temidayo Adefioye</h5></td>
+      <td > <h4 class="text-center" style="font-weight: bold"> Understanding your builds</h4>
+      <h5 id="speakersName">Charles Muchene</h5></td>
 
   </tr>
-   <tr style="background-color: #eeeeee">
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 10:45-11:15</i></td>
-     <td colspan="3"><h4 class="text-center">Tea Break</h4></td>
-      </tr>
+
       <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 11:15-12:00</i></td>
-        <td><h4 class="text-center" style="font-weight: bold"> CodeLab 2</h4></td>
-         <td><h4 class="text-center" style="font-weight: bold"> CodeLab 2</h4></td>
-          <td><h4 class="text-center" style="font-weight: bold"> CodeLab 2</h4></td>
+        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 11:00-11:50</i></td>
+        <td><h4 class="text-center" style="font-weight: bold"> Judy's Session</h4>
+        <h5 id="speakersName">Judy Ngure</h5></td>
+         <td><h4 class="text-center" style="font-weight: bold"> No Internet? No Problem</h4><h5 id="speakersName">Moyinoluwa Adeyemi</h5></td>
+          <td></td>
       </tr>
        <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 12:05-12:50</i></td>
-        <td><h4 class="text-center" style="font-weight: bold"> CodeLab 3</h4></td>
-         <td><h4 class="text-center" style="font-weight: bold"> CodeLab 3</h4></td>
-          <td><h4 class="text-center" style="font-weight: bold"> CodeLab 3</h4></td>
+        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 12:00-12:50</i></td>
+        <td><h4 class="text-center" style="font-weight: bold"> Transforming Ideas With Flutter</h4>
+        <h5 id="speakersName">Ochieng Riungu</h5></td>
+         <td><h4 class="text-center" style="font-weight: bold"> Code Build Ship</h4><h5 id="speakersName">Mkaya Bukachi</h5></td>
+          <td><h4 class="text-center" style="font-weight: bold"> Cloud Firestore-Getting Started</h4> <h5 id="speakersName">Otieno Rowland</h5></td>
       </tr>
-       <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 12:50-01:00</i></td>
-     <td colspan="3"><h4 class="text-center">Sponsor Slot giveAway</h4></td>
-      </tr>
+
       <tr style="background-color: #eeeeee">
     <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 01:00-02:00</i></td>
      <td colspan="3"><h4 class="text-center">Lunch Break</h4></td>
       </tr>
-       <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 02:00-03:00</i></td>
-        <td colspan="4"><h4 class="text-center" style="font-weight: bold">ANNOUNCEMENT OF WINNERS OF THE VARIOUS HACKATHONS
 
-</h4>
-    <h5 class="text-center">Speeches and introducing those that put effort for droidCon etc
- <br />
-    RECAP
- </h5>
+      <tr>
+        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 03:00-03:50</i></td>
+        <td><h4 class="text-center" style="font-weight: bold"> Data Binding and Kotlin</h4><h5 id="speakersName">Eton Otieno</h5></td>
+         <td><h4 class="text-center" style="font-weight: bold"> Android UI Testing</h4><h5 id="speakersName">Clare Mburu</h5></td>
+         <td></td>
 
-     </td>
       </tr>
       <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 03:00-03:45</i></td>
-        <td><h4 class="text-center" style="font-weight: bold"> CodeLab 4</h4></td>
-         <td><h4 class="text-center" style="font-weight: bold"> CodeLab 4</h4></td>
-          <td><h4 class="text-center" style="font-weight: bold"> CodeLab 4</h4></td>
+        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold">04:00-4:50</i></td>
+        <td><h4 class="text-center" style="font-weight: bold"> Intergrating Mpesa Payments on Android Apps</h4>
+        <h5 id="speakersName">Kevin Mulugu</h5></td>
+        <td></td>
+        <td></td>
       </tr>
-      <tr>
-        <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold">03:45-4:30</i></td>
-        <td><h4 class="text-center" style="font-weight: bold"> CodeLab 5</h4></td>
-         <td><h4 class="text-center" style="font-weight: bold"> CodeLab 5</h4></td>
-          <td><h4 class="text-center" style="font-weight: bold"> CodeLab 5</h4></td>
-      </tr>
-       <tr>
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 04:30-05:30</i></td>
-     <td colspan="3"><h4 class="text-center">Sponsor Slot</h4></td>
-      </tr>
-       <tr style="background-color: #eeeeee">
-    <td> <i class="fa fa-clock-o" aria-hidden="true" style="color: #757575; font-weight: bold"> 05:30</i></td>
-     <td colspan="3"><h4 class="text-center">Break-Off Snacks and Tea</h4></td>
-      </tr>
+
+
 
 
 </table>

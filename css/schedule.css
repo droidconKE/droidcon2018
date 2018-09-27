@@ -10,15 +10,17 @@ body{
     background-size: cover;
     background-position: center center;
     z-index: 1;
-    background
+
 }
 
-
+table{
+    width: 100%;
+}
 #btnschedule{
-    font-size: 1rem;
-    background-color: #863B96;
-    color: #fff;
-    margin-right: 1em;
+    font-size: 1.5rem;
+    background-color: #ffd54f;
+       color: #fff;
+
 }
 
 table, th, td {
@@ -26,6 +28,26 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
-    padding: 10px;
+    padding: 0.6em;
     text-align: left;
+}
+#speakersName{
+    color: #6ADEA3;
+    font-weight: bold;
+    text-align: center;
+}
+
+#scheduleHeader{
+   font-weight: bolder;
+    color: #863B96;
+    font-size: 4.5em;
+}
+#clock{
+    color: #757575;
+    font-weight: bold;
+}
+#scheduleTime{
+    text-align: center;
+    padding: 0 3em;
+
 }
