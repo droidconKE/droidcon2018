@@ -1,5 +1,5 @@
 .card-title{
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     color: #863B96;
 }
@@ -15,5 +15,13 @@
     font-weight: bold;
     font-style: italic;
 
+}
+.card-img-top{
+    height: 35vh;
+}
+#speakertwitter{
+    text-align: right;
+    color: #863B96;
+    padding-right: 2em;
 }
 
