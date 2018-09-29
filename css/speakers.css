@@ -14,11 +14,11 @@
 .card-text{
     text-align: center;
     font-weight: bold;
-    font-style: italic;
+/*    font-style: italic;*/
 
 }
 .card-img-top{
-    height: 35vh;
+    height: 40vh;
 }
 #speakertwitter{
     color: #863B96;
