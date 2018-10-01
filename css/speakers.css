@@ -1,32 +1,38 @@
-.card-title{
+.card-title {
     text-align: center;
     font-weight: bold;
     color: #863B96;
 }
-.card-deck{
+
+.card-deck {
     padding-bottom: 0.7em;
 
 }
-.card{
-        background-color: #fafafa;
+
+.card {
+    background-color: #fafafa;
     text-align: center;
+    padding-bottom: 1em;
 }
-.card-text{
+
+.card-text {
     text-align: center;
     font-weight: bold;
-/*    font-style: italic;*/
+
 
 }
-.card-img-top{
-/*    height: vh;*/
-}
-#cardheight{
+
+#cardheight {
     height: 40vh;
 }
 
-#speakertwitter{
+#speakertwitter {
     color: #863B96;
-    font-style: italic;
-    font-weight: bold;
+     font-weight: bold;
 }
-
+#twittericon{
+     text-align: center;
+    color: #863B96;
+     font-weight: bold;
+    padding-bottom: 5em;
+}
