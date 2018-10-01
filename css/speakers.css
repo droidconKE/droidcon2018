@@ -18,8 +18,12 @@
 
 }
 .card-img-top{
+/*    height: vh;*/
+}
+#cardheight{
     height: 40vh;
 }
+
 #speakertwitter{
     color: #863B96;
     font-style: italic;
